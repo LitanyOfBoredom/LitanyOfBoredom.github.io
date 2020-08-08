@@ -3,6 +3,7 @@ const NUM_COLS = 3;
 const EMPTY_TILE_NUMBER = NUM_ROWS * NUM_COLS - 1;
 const EMPTY_TILE_CLASSNAME = "tile" + EMPTY_TILE_NUMBER;
 const FINAL_TILE_CLASSNAME = "tile" + (NUM_ROWS * NUM_COLS);
+var correct;
 
 function setSolvedText(text) {
     var element = document.getElementById("puzzleSolved");
@@ -39,7 +40,9 @@ function checkAndMarkPuzzleSolved() {
     }
     // Replace the last cell (which should now be empty) with the "final" tile
     getCellElement(NUM_ROWS - 1, NUM_COLS - 1).className = FINAL_TILE_CLASSNAME;
-    setSolvedText("Solved!");
+    setSolvedText(reverse("Gib ztzrm!"));
+    if(correct)
+        setSolvedText(reverse("Kozxvslowvi"));
 }
 
 // Check if 'possiblyEmptyCell' is empty
@@ -56,6 +59,22 @@ function moveTileIfValid(cell, possiblyEmptyCell) {
     cell.className = EMPTY_TILE_CLASSNAME;
     checkAndMarkPuzzleSolved();
     return true;
+}
+
+function reverse(text)
+{
+    var res = "";
+    for(let i = 0; i < text.length; i++)
+    {
+        var val = text.charCodeAt(i);
+        if(val >= 65 && val <= 90)
+            res = res + String.fromCharCode(155 - val);
+        else if(val >= 97 && val <= 122)
+            res = res + String.fromCharCode(219 - val);
+        else
+            res = res + text[i];
+    }
+    return res;
 }
 
 function clickTile(row, column) {
@@ -95,7 +114,8 @@ function clickTile(row, column) {
     }
 }
 
-function makeNewPuzzle() {
+function makeNewPuzzle(right) {
+    correct = right;
     // Starting condition of the puzzle, cells 0..8 contain tiles 0..8
     // Cell index: upper left = 0, lower right = 8
     var tileNums = [0, 1, 2, 3, 4, 5, 6, 7, 8];
@@ -116,7 +136,7 @@ function makeNewPuzzle() {
             [5, 7] // 8
         ];
 
-    for (var t = 0; t < 300; t++) {
+    for (var t = 0; t < 1; t++) {
         // First pick a cell to move the empty cell to
         var adjacentRow = adjacentCells[emptyCell];
         var random = Math.floor(Math.random() * adjacentRow.length);
