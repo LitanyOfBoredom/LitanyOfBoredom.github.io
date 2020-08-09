@@ -1,0 +1,84 @@
+<html>
+<title>Chess</title>
+<body onload="addSubmitOnEnter('inputtext', 'submitbutton');"">
+    <table>
+        <tr>
+            <td>
+                <img src="chessboard.png" width = "600px">
+            </td>
+            <td>
+                <b>Capitalists:</b>
+                <br>
+                Dwight D. Eisenhower
+                <br>
+                Ronald W. Reagan
+                <br>
+                Joseph R. McCarthy
+                <br>
+                Richard M. Nixon
+                <br>
+                Harry S. Truman
+                <br>
+                Lyndon B. Johnson
+                <p></p>
+                <b>Communists:</b>
+                <br>
+                Nikita Khruschev
+                <br>
+                Joseph Stalin
+                <br>
+                Leonid Brezhnev
+                <br>
+                Georgi Malenkov
+                <br>
+                Lavrenti Beria
+                <br>
+                Vyacheslav Molotov
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                Russians and Americans cannot be on the same team.
+                <p></p>
+                Brezhnev cannot attack anyone. Only Johnson can attack him.
+                <p></p>
+                McCarthy is in danger from Stalin and Reagan.
+                <p></p>
+                Reagan can attack Beria, but must be wary of Beria and Molotov.
+                <p></p>
+                Stalin should be afraid of McCarthy, Nixon, and Truman.
+                <p></p>
+                Eisenhower can capture Kruschev and Beria, and is not in danger of being attacked.
+                <p></p>
+                Malenkov cannot be attacked.
+                <p></p>
+                Nixon can attack Kruschev.
+            </td>
+            <td>
+                <img src = "blackPawn.png" width = "50px"> __________ 9th letter
+                <br>
+                <img src = "blackKnight.png" width = "50px"> __________ 14th letter
+                <br>
+                <img src = "whiteRook.png" width = "50px"> __________ 7th letter
+                <br>
+                <img src = "whitePawn.png" width = "50px"> __________ 8th letter
+                <br>
+                <img src = "blackBishop.png" width = "50px"> __________ 2nd letter
+                <br>
+                <img src = "blackRook.png" width = "50px"> __________ 4th letter
+                <br>
+                <img src = "whiteKing.png" width = "50px"> __________ 5th letter
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="Chess.js"></script>
+    <input id="inputtext" type="text" maxlength="11" autofocus>
+    <button id="submitbutton" type="submit" onclick="textChange();">Submit</button>
+    <p></p>
+    <div id="outputtext"></div>
+    <p></p>
+    <button onclick="location.href='../Turing';" value="Go Back">Go back to Turing puzzle</button>
+</body>
+</html>
