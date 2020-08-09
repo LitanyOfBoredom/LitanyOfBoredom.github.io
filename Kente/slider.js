@@ -136,7 +136,7 @@ function makeNewPuzzle(right) {
             [5, 7] // 8
         ];
 
-    for (var t = 0; t < 1; t++) {
+    for (var t = 0; t < 300; t++) {
         // First pick a cell to move the empty cell to
         var adjacentRow = adjacentCells[emptyCell];
         var random = Math.floor(Math.random() * adjacentRow.length);
