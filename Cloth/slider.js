@@ -16,6 +16,8 @@ function getCellElement(row, column) {
     return document.getElementById(cellId);
 }
 
+var error2 = "sggkh://ulinh.tov/";
+
 // Parameter is a document element as returned by getCellElement()
 function isCellEmptyTile(cell) {
     return cell.className == EMPTY_TILE_CLASSNAME;
@@ -40,9 +42,9 @@ function checkAndMarkPuzzleSolved() {
     }
     // Replace the last cell (which should now be empty) with the "final" tile
     getCellElement(NUM_ROWS - 1, NUM_COLS - 1).className = FINAL_TILE_CLASSNAME;
-    setSolvedText(reverse("Dilmt xolgs. Gib ztzrm!"));
+    setSolvedText(reverse(error1));
     if(correct)
-        setSolvedText(reverse("Kozxvslowvi"));
+        setSolvedText(reverse(error2 + error3));
 }
 
 // Check if 'possiblyEmptyCell' is empty
@@ -76,6 +78,8 @@ function reverse(text)
     }
     return res;
 }
+
+var error1 = "Dilmt xolgs. Gib ztzrm!";
 
 function clickTile(row, column) {
     var cell1 = getCellElement(row, column);
@@ -113,6 +117,8 @@ function clickTile(row, column) {
         }
     }
 }
+
+var error3 = "aaddTMbllcWeAYp29";
 
 function makeNewPuzzle(right) {
     correct = right;
