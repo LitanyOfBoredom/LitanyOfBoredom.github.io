@@ -40,12 +40,21 @@ h1, h2, h3, h4 {
   color: #666;
   font-size: 1.5em;
 }
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
  
 /* Slots for final card positions */
  
 #cardSlots {
   margin: 0 auto 3em auto;
-  background: white;
+  background: black;
   float: left;
 }
  
@@ -53,7 +62,7 @@ h1, h2, h3, h4 {
  
 #cardPile {
   margin: 0 auto;
-  background: white;
+  background: black;
   float: left;
 }
  
@@ -84,7 +93,7 @@ h1, h2, h3, h4 {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   margin: 10px 0 0 10px;
-  background: rgb(141,141,141);
+  background: #444;
 }
  
 /*#cardSlots div:first-child, #cardPile div:first-child {
@@ -100,7 +109,7 @@ h1, h2, h3, h4 {
 }
  
 #cardPile div {
-  background: rgb(141, 141, 141);
+  background: #419ebc;
   color: #fff;
   font-size: 1em;
   text-shadow: 0 0 3px #000;
@@ -115,14 +124,14 @@ h1, h2, h3, h4 {
  
 /* Individually coloured cards */
  
-#card1.correct { background: rgb(90, 90, 90); }
-#card2.correct { background: rgb(90, 90, 90); }
-#card3.correct { background: rgb(90, 90, 90); }
-#card4.correct { background: rgb(90, 90, 90); }
-#card5.correct { background: rgb(90, 90, 90); }
-#card6.correct { background: rgb(90, 90, 90); }
-#card7.correct { background: rgb(90, 90, 90); }
-#card8.correct { background: rgb(90, 90, 90); }
+#card1.correct { background: #3fcfe1; }
+#card2.correct { background: #3fcfe1; }
+#card3.correct { background: #3fcfe1; }
+#card4.correct { background: #3fcfe1; }
+#card5.correct { background: #3fcfe1; }
+#card6.correct { background: #3fcfe1; }
+#card7.correct { background: #3fcfe1; }
+#card8.correct { background: #3fcfe1; }
  
  
 /* "You did it!" message */
@@ -133,13 +142,16 @@ h1, h2, h3, h4 {
   width: 0;
   height: 0;
   z-index: 100;
-  background: #dfd;
-  border: 2px solid #333;
+  font-family: 'Futura', Arial, sans-serif;
+  background: #ffffff;
+  color: #000;
+  border: 4px solid #3fcfe1;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   -moz-box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
   -webkit-box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
   box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }

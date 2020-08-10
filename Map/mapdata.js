@@ -962,7 +962,8 @@ var simplemaps_worldmap_mapdata={
       name: "Elizabethan England",
       url: "https://forms.gle/Xs7XE7hT2eJrzbe18",
       type: "circle",
-      size: "15"
+      size: "15",
+      description: "1558-1603"
     },
     "1": {
       name: "China",
@@ -970,7 +971,8 @@ var simplemaps_worldmap_mapdata={
       lng: "116.4074",
       type: "circle",
       url: "https://forms.gle/jUSRzThJKSToyjXD8",
-      size: "15"
+      size: "15",
+      description: "2008"
     },
     "2": {
       name: "World War II/Cold War",
@@ -978,7 +980,8 @@ var simplemaps_worldmap_mapdata={
       lng: "37.6173",
       type: "circle",
       url: "https://forms.gle/bQN58CwYFEoMcJxo7",
-      size: "15"
+      size: "15",
+      description: "1939-1991"
     },
     "3": {
       name: "Ghana",
@@ -986,15 +989,17 @@ var simplemaps_worldmap_mapdata={
       lng: "-0.187",
       type: "circle",
       url: "https://forms.gle/9ugE3j3cnuJWE6np6",
-      size: "15"
+      size: "15",
+      description: "1970"
     },
     "4": {
-      name: "Incan Empire",
+      name: "Inca Empire",
       lat: "-13.1631",
       lng: "-72.5450",
       type: "circle",
       url: "https://forms.gle/Xy6Hj8guqAUy8xzUA",
-      size: "15"
+      size: "15",
+      description: "1493-1527"
     },
     "5": {
       name: "India",
@@ -1002,7 +1007,8 @@ var simplemaps_worldmap_mapdata={
       lng: "73.3",
       type: "circle",
       url: "https://forms.gle/LqWrtkvEZGiMF5iW6",
-      size: "15"
+      size: "15",
+      description: "2015"
     },
     "6": {
       name: "Baghdad, Iraq",
@@ -1010,7 +1016,8 @@ var simplemaps_worldmap_mapdata={
       lng: "44.3661",
       type: "circle",
       url: "https://forms.gle/QFEEddoiQQXWFFgU8",
-      size: "15"
+      size: "15",
+      description: "Islamic Golden Age: 800-1258"
     },
     "7": {
       lat: "24.5",
@@ -1018,7 +1025,8 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       name: "Golden Age of Piracy",
       url: "https://forms.gle/y5zSJ5ekqUnkR8k57",
-      size: "15"
+      size: "15",
+      description: "1650-1730"
     }
   },
   regions: {},
