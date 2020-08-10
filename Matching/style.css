@@ -92,8 +92,8 @@ a.button {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  margin: 10px 0 0 0;
-  background: #f00;
+  margin: 10px 0 0 5px;
+  background: #888;
 }
  
 /*#cardSlots div:first-child, #cardPile div:first-child {
