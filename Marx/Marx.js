@@ -3,8 +3,7 @@ function addSubmitOnEnter(inputId, submitBtnId)
     document.getElementById(inputId).addEventListener("keyup", event => submitOnEnter(event, submitBtnId));
 }
 
-var button = "../";
-var slider = "/";
+var error = " is incorrect. Try again.";
 
 function submitOnEnter(event, submitBtnId)
 {
@@ -14,22 +13,25 @@ function submitOnEnter(event, submitBtnId)
     event.preventDefault();
 }
 
+var button = "https://forms.gle/";
+
 function textChange()
 {
     var text = document.getElementById("inputtext").value;
     if(check(text))
     {
-        window.location.href = (button + convert(issue) + slider);
+        window.location.href = (button + convert(sign) + "/");
     }
     else
     {
-        document.getElementById("outputtext").innerText = text + " is incorrect. Try again.";
+        document.getElementById("outputtext").innerText = text + error;
     }
 }
 
 function check(text)
 {
-    return (hash(text) == -228454552 || hash(text) == -228454616 || hash(text) == -1373500632);
+    var val = hash(text);
+    return (val == 14028680 || val == 14028616 || val == -1063908536);
 }
 
 function hash(text)
@@ -41,7 +43,6 @@ function hash(text)
     }
     return sum;
 }
-
 
 function convert(text)
 {
@@ -59,4 +60,4 @@ function convert(text)
     return res;
 }
 
-var issue = "Klvgib";
+var sign = "ISTUu6AprVfxapY27";

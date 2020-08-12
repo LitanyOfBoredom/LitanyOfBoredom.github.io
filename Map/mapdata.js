@@ -5,6 +5,7 @@ var simplemaps_worldmap_mapdata={
     background_color: "#000000",
     background_transparent: "no",
     popups: "detect",
+    popup_nocss: 'yes',
     
     //State defaults
     state_description: "Click for a local supplier",
@@ -963,7 +964,7 @@ var simplemaps_worldmap_mapdata={
       url: "https://forms.gle/Xs7XE7hT2eJrzbe18",
       type: "circle",
       size: "15",
-      description: "1558-1603"
+      description: "<div>1558-1603<br>Difficulty:<br>Skills needed:</div>"
     },
     "1": {
       name: "China",
@@ -972,7 +973,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/jUSRzThJKSToyjXD8",
       size: "15",
-      description: "2008"
+      description: "<div>2008<br>Difficulty:<br>Skills needed:</div>"
     },
     "2": {
       name: "World War II/Cold War",
@@ -981,7 +982,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/bQN58CwYFEoMcJxo7",
       size: "15",
-      description: "1939-1991"
+      description: "<div>1939-1991<br>Difficulty:<br>Skills needed:</div>"
     },
     "3": {
       name: "Ghana",
@@ -990,7 +991,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/9ugE3j3cnuJWE6np6",
       size: "15",
-      description: "1970"
+      description: "<div>1970<br>Difficulty:<br>Skills needed:</div>"
     },
     "4": {
       name: "Inca Empire",
@@ -999,7 +1000,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/Xy6Hj8guqAUy8xzUA",
       size: "15",
-      description: "1493-1527"
+      description: "<div>1493-1527<br>Difficulty:<br>Skills needed:</div>"
     },
     "5": {
       name: "India",
@@ -1008,7 +1009,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/LqWrtkvEZGiMF5iW6",
       size: "15",
-      description: "2015"
+      description: "<div>2015<br>Difficulty:<br>Skills needed:</div>"
     },
     "6": {
       name: "Baghdad, Iraq",
@@ -1017,7 +1018,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/QFEEddoiQQXWFFgU8",
       size: "15",
-      description: "Islamic Golden Age: 800-1258"
+      description: "<div>Islamic Golden Age: 800-1258<br>Difficulty:<br>Skills needed:</div>"
     },
     "7": {
       lat: "24.5",
@@ -1026,7 +1027,7 @@ var simplemaps_worldmap_mapdata={
       name: "Golden Age of Piracy",
       url: "https://forms.gle/y5zSJ5ekqUnkR8k57",
       size: "15",
-      description: "1650-1730"
+      description: "<div>1650-1730<br>Difficulty:<br>Skills needed:</div>"
     }
   },
   regions: {},

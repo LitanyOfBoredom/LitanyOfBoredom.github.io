@@ -4,7 +4,7 @@
     <title>Communist Manifesto</title>
 </head>
 
-<body>
+<body onload="addSubmitOnEnter('inputtext', 'submitbutton');">
     <a href="Manifesto.pdf">Communist Manifesto (Abridged)</a>
     <p></p>
     <a href="https://drive.google.com/file/d/1ud_47WVSPQ8xDOeqkCoDhq-B8zMlP6hc/view?usp=sharing">(click here if above link is broken)</a>
@@ -14,7 +14,11 @@
     A straight edge may help, to avoid blurring lines,<br>
     Do not be beholden to the page’s confines.
     <p></p>
-    https://tinyurl.com/______
+    <script type="text/javascript" src="Marx.js"></script>
+    <input id="inputtext" type="text" autofocus>
+    <button id="submitbutton" type="submit" onclick="textChange();">Submit</button>
+    <p></p>
+    <div id="outputtext"></div>
 </body>
 
 </html>

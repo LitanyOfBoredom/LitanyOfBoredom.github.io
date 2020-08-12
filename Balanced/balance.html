@@ -4,11 +4,16 @@
     <title>Balance</title>
 </head>
 
-<body>
-    <img src="instructions.png" style="width:600px;height:450px;">
+<body onload="addSubmitOnEnter('inputtext', 'submitbutton');">
+    <img src="instructions.png" style="width:600px;height:400px;">
     <p></p>
-    <img src="scale.png" style="width:600px;height:450px;">
+    <img src="scale.png" style="width:600px;height:400px;">
     <p></p>
+    <script type="text/javascript" src="Balance.js"></script>
+    <input id="inputtext" type="text" autofocus>
+    <button id="submitbutton" type="submit" onclick="textChange();">Submit</button>
+    <p></p>
+    <div id="outputtext"></div>
 </body>
 
 </html>

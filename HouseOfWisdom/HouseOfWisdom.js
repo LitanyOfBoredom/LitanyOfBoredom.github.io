@@ -22,8 +22,7 @@ function textChange()
     }
     else
     {
-        document.getElementById("outputtext").innerText = hash(text);
-        //document.getElementById("outputtext").innerText = text + error;
+        document.getElementById("outputtext").innerText = text + error;
     }
 }
 
