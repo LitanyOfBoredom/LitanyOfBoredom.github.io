@@ -964,7 +964,7 @@ var simplemaps_worldmap_mapdata={
       url: "https://forms.gle/Xs7XE7hT2eJrzbe18",
       type: "circle",
       size: "15",
-      description: "<div>1558-1603<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>1558-1603<br>Difficulty: 6/10<br>Skills needed: Research, language, observation</div>"
     },
     "1": {
       name: "China",
@@ -973,7 +973,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/jUSRzThJKSToyjXD8",
       size: "15",
-      description: "<div>2008<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>2008<br>Difficulty: 7/10<br>Skills needed: Listening, observation</div>"
     },
     "2": {
       name: "World War II/Cold War",
@@ -982,7 +982,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/bQN58CwYFEoMcJxo7",
       size: "15",
-      description: "<div>1939-1991<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>1939-1991<br>Difficulty: 9/10<br>Skills needed: Logic, reasoning, chess, observation</div>"
     },
     "3": {
       name: "Ghana",
@@ -991,7 +991,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/9ugE3j3cnuJWE6np6",
       size: "15",
-      description: "<div>1970<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>1970<br>Difficulty: 6/10<br>Skills needed: Strategy, visualization, observation</div>"
     },
     "4": {
       name: "Inca Empire",
@@ -1000,7 +1000,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/Xy6Hj8guqAUy8xzUA",
       size: "15",
-      description: "<div>1493-1527<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>1493-1527<br>Difficulty: 4/10<br>Skills needed: Logic, listening, observation</div>"
     },
     "5": {
       name: "India",
@@ -1009,7 +1009,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/LqWrtkvEZGiMF5iW6",
       size: "15",
-      description: "<div>2015<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>2015<br>Difficulty: 7/10<br>Skills needed: Navigation, observation</div>"
     },
     "6": {
       name: "Baghdad, Iraq",
@@ -1018,7 +1018,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/QFEEddoiQQXWFFgU8",
       size: "15",
-      description: "<div>Islamic Golden Age: 800-1258<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>Islamic Golden Age: 800-1258<br>Difficulty: 8/10<br>Skills needed: Language, math, logic, observation</div>"
     },
     "7": {
       lat: "24.5",
@@ -1027,7 +1027,7 @@ var simplemaps_worldmap_mapdata={
       name: "Golden Age of Piracy",
       url: "https://forms.gle/y5zSJ5ekqUnkR8k57",
       size: "15",
-      description: "<div>1650-1730<br>Difficulty:<br>Skills needed:</div>"
+      description: "<div>1650-1730<br>Difficulty: 5/10<br>Skills needed: Logic, observation</div>"
     }
   },
   regions: {},

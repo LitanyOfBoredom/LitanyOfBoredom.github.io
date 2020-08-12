@@ -1,10 +1,34 @@
 <html>
-<title>Chess</title>
-<body onload="addSubmitOnEnter('inputtext', 'submitbutton');"">
+<head>
+    <title>Chess</title>
+    <style>
+        a:link
+        {
+            color: #90c4f7;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        a:visited
+        {
+            color: #609af7;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body style="font-family: 'Futura', Arial, sans-serif;font-size:20px;color:white;background-color:#383458;" onload="addSubmitOnEnter('inputtext', 'submitbutton');">
+    <img src="Telegram.jpg" width = "500px">
+    <p></p>
     <table>
         <tr>
             <td>
+                <center>Black starts here</center>
                 <img src="chessboard.png" width = "600px">
+                <br>
+                <center>White starts here</center>
+                <p></p>
+                <a href="https://www.wholesalechess.com/pages/new-to-chess/pieces.html"><u>Click here if you don't know how chess pieces move</u></a>
             </td>
             <td>
                 <b>Americans:</b>
@@ -72,7 +96,7 @@
         </tr>
     </table>
     <script type="text/javascript" src="Chess.js"></script>
-    <input id="inputtext" type="text" maxlength="11" autofocus>
+    <input id="inputtext" type="text">
     <button id="submitbutton" type="submit" onclick="textChange();">Submit</button>
     <p></p>
     <div id="outputtext"></div>

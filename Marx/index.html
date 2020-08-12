@@ -2,12 +2,27 @@
 
 <head>
     <title>Communist Manifesto</title>
+    <style>
+        a:link
+        {
+          color: #90c4f7;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited
+        {
+          color: #609af7;
+          background-color: transparent;
+          text-decoration: none;
+        }
+    </style>
 </head>
 
-<body onload="addSubmitOnEnter('inputtext', 'submitbutton');">
-    <a href="Manifesto.pdf">Communist Manifesto (Abridged)</a>
+<body style="font-family: 'Futura', Arial, sans-serif;font-size:20px;color:white;background-color:#383458;" onload="addSubmitOnEnter('inputtext', 'submitbutton');">
+    <a href="Manifesto.pdf"><u>Communist Manifesto (Abridged)</u></a>
     <p></p>
-    <a href="https://drive.google.com/file/d/1ud_47WVSPQ8xDOeqkCoDhq-B8zMlP6hc/view?usp=sharing">(click here if above link is broken)</a>
+    <a href="https://drive.google.com/file/d/1ik0U5IsABriLPyURweUEjXacMagRiGTI/view?usp=sharing"><u>(click here if above link is broken)</u></a>
     <p></p>
     Search in the outskirts to find what you seek,<br>
     No margin for error to clear the mystique.<br>
@@ -15,7 +30,7 @@
     Do not be beholden to the page’s confines.
     <p></p>
     <script type="text/javascript" src="Marx.js"></script>
-    <input id="inputtext" type="text" autofocus>
+    <input id="inputtext" type="text">
     <button id="submitbutton" type="submit" onclick="textChange();">Submit</button>
     <p></p>
     <div id="outputtext"></div>
