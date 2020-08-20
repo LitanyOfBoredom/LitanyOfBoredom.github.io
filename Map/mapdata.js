@@ -973,7 +973,7 @@ var simplemaps_worldmap_mapdata={
       type: "circle",
       url: "https://forms.gle/jUSRzThJKSToyjXD8",
       size: "15",
-      description: "<div>2008<br>Difficulty: 7/10<br>Skills needed: Listening, observation</div>"
+      description: "<div>2008<br>Difficulty: 7/10<br>Skills needed: Listening, navigation, observation</div>"
     },
     "2": {
       name: "World War II/Cold War",
