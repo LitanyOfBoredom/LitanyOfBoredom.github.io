@@ -961,7 +961,7 @@ var simplemaps_worldmap_mapdata={
       lat: "54.5074",
       lng: "-3.3278",
       name: "Elizabethan England",
-      url: "https://forms.gle/Xs7XE7hT2eJrzbe18",
+      url: "https://litanyofboredom.github.io/Conspire/",
       type: "circle",
       size: "15",
       description: "<div>1558-1603<br>Difficulty: 6/10<br>Skills needed: Research, language, observation</div>"
@@ -971,7 +971,7 @@ var simplemaps_worldmap_mapdata={
       lat: "39.9042",
       lng: "116.4074",
       type: "circle",
-      url: "https://forms.gle/jUSRzThJKSToyjXD8",
+      url: "https://bhpatriots3.wixsite.com/avisittobeijing",
       size: "15",
       description: "<div>2008<br>Difficulty: 7/10<br>Skills needed: Listening, navigation, observation</div>"
     },
@@ -980,7 +980,7 @@ var simplemaps_worldmap_mapdata={
       lat: "55.7558",
       lng: "37.6173",
       type: "circle",
-      url: "https://forms.gle/bQN58CwYFEoMcJxo7",
+      url: "https://litanyofboredom.github.io/Turing/",
       size: "15",
       description: "<div>1939-1991<br>Difficulty: 9/10<br>Skills needed: Logic, reasoning, chess, observation</div>"
     },
@@ -989,7 +989,7 @@ var simplemaps_worldmap_mapdata={
       lat: "6.1037",
       lng: "-0.187",
       type: "circle",
-      url: "https://forms.gle/9ugE3j3cnuJWE6np6",
+      url: "https://litanyofboredom.github.io/Airplanes/",
       size: "15",
       description: "<div>1970<br>Difficulty: 6/10<br>Skills needed: Strategy, visualization, observation</div>"
     },
@@ -998,7 +998,7 @@ var simplemaps_worldmap_mapdata={
       lat: "-13.1631",
       lng: "-72.5450",
       type: "circle",
-      url: "https://forms.gle/Xy6Hj8guqAUy8xzUA",
+      url: "https://annairffri.wixsite.com/ancientincaempire",
       size: "15",
       description: "<div>1493-1527<br>Difficulty: 4/10<br>Skills needed: Logic, listening, observation</div>"
     },
@@ -1007,7 +1007,7 @@ var simplemaps_worldmap_mapdata={
       lat: "19.0760",
       lng: "73.3",
       type: "circle",
-      url: "https://forms.gle/LqWrtkvEZGiMF5iW6",
+      url: "https://bklcnec.wixsite.com/newdelhi",
       size: "15",
       description: "<div>2015<br>Difficulty: 7/10<br>Skills needed: Navigation, observation</div>"
     },
@@ -1016,7 +1016,7 @@ var simplemaps_worldmap_mapdata={
       lat: "33.3152",
       lng: "44.3661",
       type: "circle",
-      url: "https://forms.gle/QFEEddoiQQXWFFgU8",
+      url: "https://litanyofboredom.github.io/HouseOfWisdom/",
       size: "15",
       description: "<div>Islamic Golden Age: 800-1258<br>Difficulty: 8/10<br>Skills needed: Language, math, logic, observation</div>"
     },
@@ -1025,7 +1025,7 @@ var simplemaps_worldmap_mapdata={
       lng: "-71.5",
       type: "circle",
       name: "Golden Age of Piracy",
-      url: "https://forms.gle/y5zSJ5ekqUnkR8k57",
+      url: "https://tinyurl.com/goldenageofpiracy",
       size: "15",
       description: "<div>1650-1730<br>Difficulty: 5/10<br>Skills needed: Logic, observation</div>"
     }
