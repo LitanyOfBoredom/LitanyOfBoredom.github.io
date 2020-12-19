@@ -13,14 +13,14 @@ function submitOnEnter(event, submitBtnId)
     event.preventDefault();
 }
 
-var button = "https://forms.gle/";
+var button = "../Artifacts/";
 
 function textChange()
 {
     var text = document.getElementById("inputtext").value;
     if(check(text))
     {
-        window.location.href = (button + convert(sign) + "/");
+        window.location.href = (button + sign);
     }
     else
     {
@@ -60,4 +60,4 @@ function convert(text)
     return res;
 }
 
-var sign = "ISTUu6AprVfxapY27";
+var sign = "bc13d47656ef0.pdf";

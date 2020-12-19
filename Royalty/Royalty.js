@@ -18,7 +18,7 @@ function textChange()
     var text = document.getElementById("inputtext").value;
     if(check(text))
     {
-        window.location.href = convert(button) + convert(field);
+        window.location.href = button + field;
     }
     else
     {
@@ -26,7 +26,7 @@ function textChange()
     }
 }
 
-var field = "YPBShTsIMVFsgwz19";
+var field = "1d9824d20f.pdf";
 
 function check(text)
 {
@@ -60,4 +60,4 @@ function convert(text)
     return res;
 }
 
-var button = "sggkh://ulinh.tov/";
+var button = "../Artifacts/";

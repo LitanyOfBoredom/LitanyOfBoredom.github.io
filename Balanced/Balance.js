@@ -18,15 +18,13 @@ function textChange()
     var text = document.getElementById("inputtext").value;
     if(check(text))
     {
-        window.location.href = (button + convert(sign) + "/");
+        window.location.href = "../Artifacts/" + sign;
     }
     else
     {
         document.getElementById("outputtext").innerText = text + error;
     }
 }
-
-var sign = "fUX4ZkYv8UQMwcpB9";
 
 function check(text)
 {
@@ -60,4 +58,4 @@ function convert(text)
     return res;
 }
 
-var button = "https://forms.gle/";
+var sign = "382bac3a017.pdf";

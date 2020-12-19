@@ -16,7 +16,7 @@ function getCellElement(row, column) {
     return document.getElementById(cellId);
 }
 
-var error2 = "https://forms.gle/";
+var error2 = "https://litanyofboredom.github.io/Artifacts/";
 
 // Parameter is a document element as returned by getCellElement()
 function isCellEmptyTile(cell) {
@@ -44,7 +44,7 @@ function checkAndMarkPuzzleSolved() {
     getCellElement(NUM_ROWS - 1, NUM_COLS - 1).className = FINAL_TILE_CLASSNAME;
     setSolvedText(error1);
     if(correct)
-        setSolvedText(error2 + reverse(error3));
+        setSolvedText(error2 + error3);
 }
 
 // Check if 'possiblyEmptyCell' is empty
@@ -118,7 +118,7 @@ function clickTile(row, column) {
     }
 }
 
-var error3 = "aaddTMbllcWeAYp29";
+var error3 = "1d9824d20f.pdf";
 
 function makeNewPuzzle(right) {
     correct = right;
