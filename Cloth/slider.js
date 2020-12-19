@@ -118,7 +118,7 @@ function clickTile(row, column) {
     }
 }
 
-var error3 = "1d9824d20f.pdf";
+var error3 = "1b3723cc54f68.pdf";
 
 function makeNewPuzzle(right) {
     correct = right;
