@@ -1,6 +1,6 @@
 let boxes = document.querySelectorAll(".input-box");
 let testbox = document.querySelector(".input-box");
-let answers = ['08', '14', '04', '12', '11', '01', '10', '06', '02', 'W', 'R', '03', '07', '13', '05'];
+let answers = ['08', '14', '04', '12', '11', '01', '10', '06', '02', 'W', 'R', '03', '07', '13', '05', '09'];
 let solveCount = 1;
 
 for(let i = 0; i < boxes.length; i++)

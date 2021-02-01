@@ -55,6 +55,7 @@ hr
 .input-box
 {
     margin-top: 10px;
+    width: 35px;
 }
 .hidden
 {
@@ -67,8 +68,4 @@ hr
 #success
 {
     color: #00aa00;
-}
-.input-box
-{
-    width: 50px;
 }
