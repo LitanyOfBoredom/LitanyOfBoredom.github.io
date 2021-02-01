@@ -1,0 +1,74 @@
+body
+{
+    background-color: #000000;
+    color: #328cc1;
+}
+a
+{
+    color: #328cc1;
+}
+#title
+{
+    text-align: center;
+    color: #328cc1;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#footer
+{
+    padding-bottom: 15px;
+    width: 100%;
+}
+.person-box
+{
+    border: 2px solid white;
+    height: 175px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.name
+{
+    font-size: 20px;
+}
+.clue
+{
+    font-size: 14px;
+}
+.col-3
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.btn-color
+{
+    background-color: #328cc1 !important;
+}
+.btn-color:hover
+{
+    background-color: #1874a9 !important;
+}
+hr
+{
+    color: white;
+}
+.input-box
+{
+    margin-top: 10px;
+}
+.hidden
+{
+	display: none;
+}
+#try-again
+{
+    color: red;
+}
+#success
+{
+    color: #00aa00;
+}
+.input-box
+{
+    width: 50px;
+}
