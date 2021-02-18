@@ -69,3 +69,8 @@ hr
 {
     color: #00aa00;
 }
+#success-link
+{
+    color: #00aa00;
+    text-decoration: underline;
+}
