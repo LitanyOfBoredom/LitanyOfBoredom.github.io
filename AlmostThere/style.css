@@ -1,0 +1,47 @@
+body
+{
+    background-color: #f1d8b2;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+a
+{
+    color: #328cc1;
+}
+#footer
+{
+    padding-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+}
+hr
+{
+    color: white;
+}
+.hide
+{
+	display: none;
+}
+#puzzle-text
+{
+    text-align: center;
+    line-height: 2.5;
+}
+#link
+{
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 3.5;
+}
+#hint
+{
+	cursor: pointer;
+    text-align: center;
+}
+#hint-text
+{
+    font-size: 16px;
+    text-align: center;
+}
