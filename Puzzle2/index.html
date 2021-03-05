@@ -10,6 +10,178 @@
     <title>Puzzle 2</title>
 </head>
 <body>
-    Nice try, Tammy! But you're going to have to wait until the scavenger hunt officially begins!
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="title">
+                <h1 class="display-4">BIG BROTHER: Escape SC Edition</h1>
+            </div>
+        </div>
+		<div class="row">
+            <div class="col-12">
+                16 members of Escape SC competed in a season of Big Brother. Their names are laid out in the 4x4 grid below. Your goal is to determine who was evicted in which order. When you think you know a houseguest's eviction order, type it into the box below their name as a two digit number (01 for evicted first, 02 for second, etc.). Note that the winner and runner up are not technically evicted and are instead denoted by the letters "W" and "R". The first contestant (Ben) is already given for you.
+                <br/>
+                <br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class = "col-12 hidden" id="try-again">
+                Incorrect! Refresh and try again!<br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 hidden" id="success">
+                Congratulations! To continue, click <a href="https://www.cameo.com/v/6016162f70961a001d390034?_branch_match_id=881472522755183357&utm_source=email&utm_campaign=ViewCameoCompletedEmail" id="success-link">here</a><br><br>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Ben:</span>
+                    <br>
+                    <span class="clue" id="clue-1">[09] The winner and runner up are in the same row and are of different genders. Lydia was evicted immediately before me.</span>
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Lydia:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-2">[08] All multiples of three share a column. The first four houseguests to be evicted share a diagonal.</span>
+                    <input class ="input-box" id="input-2" type="text">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Mark:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-3">[14]</span>
+                    <input class = "input-box" id="input-3" type="text">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Ursula:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-4">[04]</span>
+                    <input class = "input-box" id="input-4" type="text">
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Reagan:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-5">[12] The winner and third-place finisher (14th evicted) are of the same gender. However, the 13th and 14th people evicted are of different genders.</span>
+                    <input class = "input-box" id="input-5">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Harrison:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-6">[11] Brighton was evicted before Mark and Josh.</span>
+                    <input class = "input-box" id="input-6">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Paige:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-7">[01] The sum of the numbers in the top row is greater than the sum of the numbers in the second row.</span>
+                    <input class = "input-box" id="input-7">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Josh:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-8">[10]</span>
+                    <input class = "input-box" id="input-8">
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Shray:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-9">[06]</span>
+                    <input class = "input-box" id="input-9">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Lillian:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-10">[02]</span>
+                    <input class = "input-box" id="input-10">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Kush:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-11">[W]</span>
+                    <input class = "input-box" id="input-11">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Grace:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-12">[R] The product of all numbers in this row is equal to one of the numbers in another row.</span>
+                    <input class = "input-box" id="input-12">
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Anna:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-13">[03] The winner is a male. Katrina is not the runner up.</span>
+                    <input class = "input-box" id="input-13">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Brighton:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-14">[07] Josh's number is divisible by Paige's number.</span>
+                    <input class = "input-box" id="input-14">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Katrina:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-15">[13] The sum of the numbers in the second column is equal to the sum of the numbers in the fourth row.</span>
+                    <input class = "input-box" id="input-15">
+                </div>
+            </div>
+            <div class = "col-3">
+                <div class = "person-box">
+                    <span class="name">Charlie:</span>
+                    <br>
+                    <span class="clue hidden" id="clue-16">[05]</span>
+                    <input class = "input-box" id="input-16">
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+			<div id="footer">
+				<div class="col col-12">
+					<hr class="solid" style="border-color:white">
+					<div>© 2021 Brendan Glascock</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
